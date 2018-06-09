@@ -109,6 +109,7 @@ class TicTacToe
 
     if won?
       win_combination = won?
+      if @board[win_combination] == "X"
       winner = board[winning_token[0]]
       return winner
     else
