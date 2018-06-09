@@ -107,13 +107,13 @@ class TicTacToe
 
     def winner
 
-    if won?
-      win_combination = won?
-      if @board[win_combination] == "X"
-        return "X"
-      else
-        return "O"
+      if won?
+        win_combination = won?
+        if @board[win_combination] == "X"
+          return "X"
+        else
+          return "O"
+      end
     end
-  end
 
 end #of class TicTacToe
