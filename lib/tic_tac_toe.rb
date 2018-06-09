@@ -113,8 +113,7 @@ class TicTacToe
         return "X"
       else
         return "O"
-
-    else
+    elsif
       return nil
     end
 
