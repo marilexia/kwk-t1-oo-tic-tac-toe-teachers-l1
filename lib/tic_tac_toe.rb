@@ -71,4 +71,4 @@ class TicTacToe
       display_board
     end
 
-end
+end #of class TicTacToe
