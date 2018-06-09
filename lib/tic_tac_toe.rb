@@ -82,5 +82,6 @@ class TicTacToe
     def won?(board)
 
       WIN_COMBINATIONS.each do |win_combination|
+        if @board[win_combination[0]] == "X" && position_2 == "X" && position_3 == "X"
 
 end #of class TicTacToe
