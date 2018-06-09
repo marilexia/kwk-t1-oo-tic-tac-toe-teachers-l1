@@ -101,5 +101,9 @@ class TicTacToe
       #code above translates to if not won and/but full return true else false
     end
 
+    def over?
+      !won? && full? ? true : false
+    end
+
 
 end #of class TicTacToe
