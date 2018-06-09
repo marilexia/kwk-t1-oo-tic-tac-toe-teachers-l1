@@ -99,7 +99,7 @@ class TicTacToe
     def draw?
       if @board.none?{|t| t == "X" || t == "O"}
         return false
-      else
+      end
        return true
      end
 
