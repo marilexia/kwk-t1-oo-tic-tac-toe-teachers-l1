@@ -100,13 +100,11 @@ class TicTacToe
       if @board.none?{|t| t == "X" || t == "O"}
         return false
       end
-      
+
       if @board.all?{|t| t == "X" || t == "O"}
         return true
       end
-
-
-  end
+end
 
 
 end #of class TicTacToe
