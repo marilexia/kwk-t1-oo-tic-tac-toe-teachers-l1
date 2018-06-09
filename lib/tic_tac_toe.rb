@@ -116,6 +116,4 @@ class TicTacToe
     end
   end
 
-  end
-
 end #of class TicTacToe
