@@ -82,8 +82,7 @@ class TicTacToe
     def won?(board)
 
       WIN_COMBINATIONS.each do |win_combination|
-        if @board[win_combination[0]] == "X" && win_combination[1]] == "X" && win_combination[2]] == "X" ||
-          @board[win_combination[0]] == "O" && win_combination[1]] == "O" && win_combination[2]] == "O" 
+        if @board[win_combination[0]] == "X" && win_combination[1]] == "X" && win_combination[2]] == "X" || @board[win_combination[0]] == "O" && win_combination[1]] == "O" && win_combination[2]] == "O"
           return true
         else
           return false
