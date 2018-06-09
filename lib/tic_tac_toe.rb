@@ -113,8 +113,7 @@ class TicTacToe
         return "X"
       else
         return "O"
-      winner = board[winning_token[0]]
-      return winner
+
     else
       return nil
     end
