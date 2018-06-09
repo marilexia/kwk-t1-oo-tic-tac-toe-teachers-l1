@@ -97,7 +97,7 @@ class TicTacToe
     end
 
     def draw?
-      won? || full? ? true : false
+      !won? || full? ? true : false
       #code above translates to if not won and/but full return true else false
     end
 
