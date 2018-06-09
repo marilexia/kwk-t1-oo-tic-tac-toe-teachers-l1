@@ -105,5 +105,16 @@ class TicTacToe
       won? || draw? || full? ? true : false
     end
 
+    def winner
+
+    if won?(board)
+      winning_token = won?(board)
+      winner = board[winning_token[0]]
+      return winner
+    else
+      return nil
+    end
+
+  end
 
 end #of class TicTacToe
