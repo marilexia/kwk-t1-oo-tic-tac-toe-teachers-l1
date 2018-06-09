@@ -87,7 +87,6 @@ class TicTacToe
         end
       end
           return false
-
     end
 
 
