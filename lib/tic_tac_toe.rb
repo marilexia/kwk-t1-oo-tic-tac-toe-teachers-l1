@@ -96,7 +96,15 @@ class TicTacToe
       return false
     end
 
-    
+    def draw?
+
+    if won?(board)
+      return false
+    else full?(board)
+      return true
+    end
+
+  end
 
 
 end #of class TicTacToe
